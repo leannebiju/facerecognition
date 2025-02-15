@@ -84,11 +84,11 @@ while True:
         cv2.putText(frame, names[int(out)],(x,y-10), font, 1, (0,255,0), 2, cv2.LINE_AA)
         cv2.rectangle(frame, (x,y), (x+w, y+h), (255,255,255),2)
                 
-    cv2.imshow("Video", frame)
+    cv2.imshow("FACE RECOGNITION", frame)
     
     key_pressed = cv2.waitKey(1) 
     
-    if key_pressed == 13 or cv2.getWindowProperty('Video', cv2.WND_PROP_VISIBLE) < 1:
+    if key_pressed == 13 or cv2.getWindowProperty('FACE RECOGNITION', cv2.WND_PROP_VISIBLE) < 1:
         break  
     
 cap.release()
