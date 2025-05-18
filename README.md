@@ -15,4 +15,4 @@ Then run the face_recognition to recogonise the faces and label accordingly.
 
 # Credits
 
-This project is done following a [youtube video](https://www.youtube.com/watch?v=vA-JiuYX--Y)
+This project is done following this [youtube video](https://www.youtube.com/watch?v=vA-JiuYX--Y)
