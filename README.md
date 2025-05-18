@@ -1,7 +1,7 @@
 # Face Recognition
 
   ## facedata.py
-  This code is used to enter the face to the dataset. It takes the name as input. And sorts the faces in order of the area each face in the screen takes and takes pictures of the face with the largest area and stores the pictures as a numpy array with the given name in a folder called *face_dataset* until the window is closed.
+  This code is used to enter the face to the dataset. It takes the name as input. Then it sorts the faces in order of the area each face in the screen takes and takes pictures of the face with the largest area and stores the pictures as a numpy array with the given name in a folder called *face_dataset* until the window is closed.
 
   ## face_recognition.py
   This code opens the webcam, checks for faces and classifies each face according to the entries in the face_dataset folder according to the KNN classification.
